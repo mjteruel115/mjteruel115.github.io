@@ -1,0 +1,18 @@
+body {
+  text-align: center;
+  background: <img src="images/Ballfaces.jpg">
+  background-size: cover;
+  color: #565656;
+  font-family: Helvetica;
+  font-weight: 400
+}
+hr {
+  width: 350px;
+}
+p {
+  font-size: 18px; line-height: 28px;
+}
+ul {
+    text-align: center;
+    list-style-type: none;
+}
