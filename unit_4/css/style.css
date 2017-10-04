@@ -1,22 +1,17 @@
-@import url('https://fonts.googleapis.com/css?family=Libre+Baskerville');
+@import url('https://fonts.googleapis.com/css?family=Elsie+Swash+Caps:900');
 *{margin: 0;padding: 0;box-sizing: border-box;}
 body {	
   text-align: center;
- 
-  color: #ffffff;
-  font-family: 'Libre Baskerville', serif;
-  font-weight: 400
+  font-family: Helvetica;
+  font-size: 18px; line-height: 1.5em; color: #898989;
 }
 
 h1 {
-	font-size: 44px; color: white;
-}
-
-hr {
-  width: 350px; color: #eeeeee; padding-bottom: 20px
+  font-family: 'Elsie Swash Caps', cursive; font-size: 98px; color: white;
 }
 
 p {
+  font-family: Helvetica;
   font-size: 18px; line-height: 1.5em; color: #898989;
 }
 ul {
