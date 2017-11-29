@@ -5,14 +5,14 @@
 *{margin: 0;padding: 0;box-sizing: border-box;}
 
 header {
-    background-color: #FFED74;
+    background-color: black;
     border: 1px black solid;
-    padding: 20px;
+    padding: 40px;
 }
 
 nav{
 	font-size: 18px; font-family: 'Zilla Slab', serif; color: black;
-	background-color: #E8C66A;
+	background-color: black;
 	text-transform: uppercase;
 }
 
@@ -28,11 +28,42 @@ h1 {
 
 h2 {
   font-family: 'Zilla Slab', serif; font-size: 32px; line-height: 1.0em; font-weight: 300; color: #000000;
+  background-color: #EAEEF2;
 }
 
 p {
   font-family: 'Zilla Slab', serif;
-  font-size: 18px; font-weight: 400; line-height: 1.5em; color: black;
+  font-size: 18px; font-weight: 300; line-height: 1.5em; color: black;
+}
+
+#two_column {
+    background-color: #EAEEF2;
+    padding: 40px;
+}
+
+#left {
+    background-color: #fff;
+    border: 1px #D8D8D8 solid;
+    padding: 20px;
+    float: left;
+    width: 60%;
+}
+
+#right {
+    background-color: #fff;
+    border: 1px #D8D8D8 solid;
+    padding: 20px;
+    float: right;   
+    width: 30%;
+}
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
 }
 
 a {	
@@ -50,12 +81,14 @@ a:hover {
 
 
 footer {
-    background-color: #FF957E;
-    border: 1px black solid;
+    background-color: #000;
     padding: 20px;
 }
 
 
-img{display: block;width: 100%;}
-#main_image{position: relative;}
+img {
+  display: block; width: 100%;
+}
+
+#main_image {position: relative;}
 #main_image h1{position: absolute;top: 50%; left: 50%;transform: translate(-50%,-50%);}
